@@ -1,7 +1,22 @@
+import "./App.css"
+import imagen from "./cryptomonedas.png"
 
 function App() {
   return (
-    <h1>Hola mundo</h1>
+    <div className="contenedor">
+      <div>
+        <img 
+          src={imagen}
+          alt="imagen de criptomonedas" 
+          className="imagen"
+        />
+      </div>
+      <div>
+        <h1 className="heading">
+          Cotiza Criptomonedas al Instante
+        </h1>
+      </div>
+    </div>
   );
 }
 
