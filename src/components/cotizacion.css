@@ -1,0 +1,20 @@
+.resultadoDiv{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.resultadoP{
+    font-size: 18px;
+}
+
+.resultadoP span{
+    font-weight: bold;
+}
+
+.precio{
+    font-size: 30px;
+}
+
+.precio span{
+    font-weight: bold;
+}
